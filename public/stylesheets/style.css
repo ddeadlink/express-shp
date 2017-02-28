@@ -1,0 +1,12 @@
+.thumbnail{
+  min-height: 355px;
+}
+.has-error input {
+      border-width: 2px;
+    }
+    .validation.text-danger:after {
+      content: 'Validation failed';
+    }
+    .validation.text-success:after {
+      content: 'Validation passed';
+    }
